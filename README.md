@@ -1,4 +1,4 @@
-A simple connect Postgresql DB implemented using pgx.
+# A simple connect Postgresql DB implemented using pgx.
 For DB works, we use a lightweight high-performance DB driver pgx.
 To start using "conect_db_microservice" you need:
 * Install and configure the latest version of Golang
