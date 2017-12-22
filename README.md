@@ -10,10 +10,10 @@ When constructing your own microservice, use them in the following way, for exam
 
   const AccessDbPatch string = "./connect_db.json"
 
-  db := ConectPosqgresqlDb(AccessDbPatch)
+  db := conect_db_microservice.ConectPosqgresqlDb(AccessDbPatch)
 
   rows, err := db.Query("SELECT name FROM users LIMIT 1")
-  
+
   "SELECT name FROM users LIMIT 1" - it is your sql code
 
 ## Dependencies
