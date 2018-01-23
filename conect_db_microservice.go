@@ -5,12 +5,15 @@ import (
   "fmt"
   "errors"
   "io/ioutil"
-  "encoding/json"
   "github.com/jackc/pgx"
+  "github.com/json-iterator/go"
 )
 
 /* DB connect error. */
 const DbConnectError int = 34
+
+/* json iterator variable. */
+var json = jsoniter.ConfigCompatibleWithStandardLibrary
 
 /* Accsess values. */
 type AccessDbJson struct {
